@@ -277,6 +277,25 @@ div.foto {
     margin-top: 15px;
 }
 
+.MATRICULA {
+    text-align: justify;
+    background-color: #6b6969;
+    padding: 3%;
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -18px;
+}
+
+.titulo{
+    margin-right: -18px;
+}
+
+.menutras{
+    margin-right: -18px;
+}
+
 .footer-h3 {
     font-size: 20px;
     font-family: "azo";
@@ -297,8 +316,14 @@ div.foto {
     grid-template-columns: repeat(3,1fr);
     background-color:rgb(102, 102, 102);
     margin-left: -8px;
-    margin-right: -8px;
+    margin-right: -18px;
     margin-bottom: -8px;
+
+
+}
+
+body{
+    margin-right: 18px;
 }
 
 .footer-img {
@@ -326,12 +351,14 @@ div.foto {
 }
 
 #fotos {
-   width: 200px;
+   width: 130px;
+   margin-bottom: 20px;
 }
 
 div.foto {
-    background-image: url('imagem/logo.png');
-    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 8px;
 }
 
 .conteudo2 {
