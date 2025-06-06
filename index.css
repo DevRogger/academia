@@ -263,7 +263,7 @@ div.foto {
     src: url('fonte/Azonix.otf'), format('opentype');
 }
 
-@media( max-width:728px) {
+@media( max-width:600px) {
 
 .conteudo1 {
     margin-left: 0px;
@@ -359,6 +359,8 @@ div.foto {
 
 .moda {
     font-size: 30px;
+    position: relative;
+    right: -18px;
 }
 
 .redes {
