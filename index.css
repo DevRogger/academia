@@ -407,12 +407,17 @@ div.foto {
     font-size: 25px;
     position: relative;
     right: -18px;
+    margin-top: 5px;
 }
 
 .imagem1{
     width: 100%;
     position: relative;
     left: 5px;
+    margin-top: 10px;
+    width: 430px;
+    margin-left: -13px;
+    border-radius: 0px;
 }
 
 .footer-fora{
