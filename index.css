@@ -327,7 +327,7 @@ body {
     font-size: 20px;
     line-height: 50px;
     text-align:left;
-    width: 100vw;
+    width: 79vw;
 }
 
 .footer-list {
@@ -342,13 +342,14 @@ body {
 .porquer {
     text-align: left;
     line-height: 60px;
-    font-size: 40px;
+    font-size: 30px;
+    font-size: 8vw;
     margin-bottom: -10px;
 }
 
 .texto {
     text-align: left;
-    width: 80vw;
+    width: 75vw;
 }
 
 #fotos {
