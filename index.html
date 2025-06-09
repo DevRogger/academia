@@ -11,8 +11,9 @@
 <body>
     <header class="titulo">
         <img  class="logo" src="imagem/logo.png" alt="logo life">
+        <i class="fa-solid fa-bars" onclick="clickMenu()"></i>
     </header>
-    <nav>
+    <nav  id="menu1" >
         <div  class="menutras"  >
             <a href="#" class="menu">fale conosco</a>
             <a href="#" class="menu">treino</a>
@@ -100,5 +101,13 @@
             </footer>   
         </article>             
     </main>
+    
+        <script>
+            function clickMenu() {
+                if (menu1.style.display == 'block') {
+                    menu1.style.display = 'none'
+                } else { menu1.style.display = 'block'}
+            }
+        </script>
 </body>
 </html>
