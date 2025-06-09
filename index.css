@@ -14,7 +14,6 @@
     height: 140px;
     margin-top: -21px;
     margin-left: -8px;
-    margin-right: -8px;
     text-align: justify;
 }
 
@@ -33,7 +32,6 @@
     background-color:rgb(255, 255, 255);
     padding-bottom: 20px;
     margin-left: -8px;
-    margin-right: -8px;
     text-align: center;
     border-radius: 0px 0px 20px 20px;
 }
@@ -48,12 +46,11 @@
 .MATRICULA {
     text-align: justify;
     background-color: #6b6969;
-    padding: 3%;
+    padding: 0%;
     margin-top: 35px;
     display: flex;
     flex-wrap: wrap;
     margin-left: -8px;
-    margin-right: -8px;
 }
 
 .porquer {
@@ -118,6 +115,7 @@
 
 body {
     background-color:rgb(219, 219, 219);
+    margin: 0%;
 }
 
 .texto {
@@ -201,7 +199,6 @@ div.foto {
     grid-template-columns: repeat(3,1fr);
     background-color: rgb(102, 102, 102);
     margin-left: -8px;
-    margin-right: -8px;
     margin-bottom: -8px;
 }
 
@@ -265,11 +262,11 @@ div.foto {
     margin-top: 50px;
 }
 
-.titulo{
+.titulo {
     margin-right: -17px;
 }
 
-.menutras{
+.menutras {
     margin-right: -17px;
 }
 
@@ -282,7 +279,7 @@ div.foto {
 .MATRICULA {
     text-align: justify;
     background-color: #6b6969;
-    padding: 0px;
+    padding: 2%;
     margin-top: 35px;
     display: flex;
     flex-wrap: wrap;
@@ -325,7 +322,7 @@ body {
     font-size: 20px;
     line-height: 50px;
     text-align:left;
-    width: 79vw;
+    width: 50vw;
 }
 
 .footer-list {
@@ -346,7 +343,7 @@ body {
 
 .texto {
     text-align: left;
-    width: 80vw;
+    width: 50vw;
 }
 
 #fotos {
@@ -408,15 +405,15 @@ div.foto {
 }
 
 .imagem1 {
-    width: 100%;
-    position: relative;
-    left: 5px;
+    width: 104%;
     margin-top: 10px;
     border-radius: 10px;
+    border-radius: 0%;
 }
 
 .footer-fora {
    padding-bottom: 30px;
+   argin-right: -17px;
 }
 
 .redes {
@@ -425,7 +422,7 @@ div.foto {
     text-decoration: none;
     width: 1.0rem;
     font-size: 50px;
-    margin-top: -6px;
+    margin-top: -4px;
 }
 
 }
