@@ -271,8 +271,8 @@ div.foto {
 }
 
 .titulo {
-    margin-right: -20px;
-    margin-left: 1px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .fa-solid {
@@ -286,18 +286,13 @@ div.foto {
 
 .menutras2{
     display: block;
-    margin-right: -20px;
+    margin-right: 0px;
     border-radius: 0px 0px 20px 20px;
     margin-left:1px;
     background-color:rgb(255, 255, 255);
     padding-bottom: 20px;
     text-align: center;
     border-radius: 0px 0px 20px 20px;
-}
-
-.menutras2::after {
-    border-radius: 20px 20px 20px 20px;
-
 }
 
 .menutras {
@@ -317,7 +312,7 @@ div.foto {
     margin-top: 35px;
     display: flex;
     flex-wrap: wrap;
-    margin-right: -20px;
+    margin-right: 0px;
 }
 
 .footer-h3 {
@@ -334,6 +329,10 @@ div.foto {
     gap: -10px;
 }
 
+article {
+    width: 100%;
+}
+
 .footer-fora {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -342,14 +341,9 @@ div.foto {
     margin-right: -17px;
 }
 
-body {
-    margin-right:21px;
-}
-
 .footer-img {
     width: 120px;
     margin-bottom: 30px;
-
 }
 
 .frase {
@@ -381,7 +375,7 @@ body {
 }
 
 #fotos {
-   width: 100%;
+   width: 90%;
    margin-bottom: 20px;
 }
 
@@ -415,8 +409,6 @@ div.foto {
     margin-top: -50px;
     display: flex;
     flex-wrap:wrap;
-    position: relative;
-    left: 7px;
 }
 
 .conteudo1,.item,.conteudo2,.conteudo3 {
@@ -434,21 +426,21 @@ div.foto {
 
 .moda {
     font-size: 28px;
-    position: relative;
-    right: -21px;
     margin-top: 20px;
     margin-bottom: 30px;
+    text-align: center;
+    margin-left: 0px;
 }
 
 .imagem1 {
-    width: 476px;
+    width: 97vw;
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .footer-fora {
    padding-bottom: 30px;
-   margin-right: -20px;
+   margin-right: 0px;
 }
 
 .redes {
