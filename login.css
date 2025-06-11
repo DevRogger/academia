@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(212, 212, 212);
+    width: 100vw;
+    right: 100vh;
+}
+
+main {
+    width: 100vw;
+    right: 100vh;
+}
+
+section#login {
+    text-align: center;
+    line-height: 50px; 
+    background-color: white;
+    margin: auto;
+    max-width: 400px;
+    transform: translate(-0%, 38%);
+    border-radius: 20px;
+    display: block;
+    box-shadow: 0px 0px 26px 1px;
+    overflow:hidden;
+}
+
+section > #imagem{
+    background-image: url(imagem/2024-09-25.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

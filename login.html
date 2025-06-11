@@ -5,30 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lefi balance</title>
     <link rel="shortcut icon" href="imagem/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <form action="index.html"autocomplete="on"method="post">
-        <p>
-            <label for="inu2">numero:</label>
-            <input type="number" name="numero" id="inu2"
-            oninput="isoma.innerHTML = Number (inu2.value)+ Number(inu2.value)">
-
-        </p>
-        <p>
-            <label for="inu1">numero:</label>
-            <input type="number" name="numero" id="inu1"
-            oninput="isoma.innerHTML = Number(inu1.value) + Number(inu2.value)">
-        
-        </p>
-        <p>  
-            <label for="isoma"></label>
-            <output name="soma" id="isoma">0</output>
-        </p>
-        <p><label for="inome">nome:</label><input type="text" name="nome" id="inome"required maxlength="20" autocomplete="nome" placeholder="seu nome"></p>
-        <p><label for="ISenha">senha:</label><input type="password" name="senha" id="isenha" minlength="8" autocomplete="senha" maxlength="8" placeholder="sua senha"></p>
-        <p><input type="submit" value="envia"></p>
-        <p><input type="number" name="numero" id="inumero"required maxlength="10" minlength="5"></p>
-        <input type="tel" name="tele" id="itele">
-    </form>
+    <main>
+        <section id="login">
+            <div id="imagem"><img src="imagem/logo.png" alt="logo"></div>
+            <div id="formulario">
+                <h1>login</h1>
+                <p>seja bem-vindo ao login</p>
+                <form action="index.html"autocomplete="on"method="post">
+                    <p><label for="inome">nome:</label><input type="text" name="nome" id="inome"required maxlength="20" autocomplete="nome" placeholder="seu nome"></p>
+                    <p><label for="ISenha">senha:</label><input type="password" name="senha" id="isenha" minlength="8" autocomplete="senha" maxlength="8" placeholder="sua senha"></p>
+                    <p><input type="submit" value="envia"></p>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
