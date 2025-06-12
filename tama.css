@@ -1,6 +1,35 @@
-@media   (min-width: 762px) and (max-width:9992px) {
+@media   (min-width: 768px) and (max-width:992px) {
     
     section#login {
-        width: 90vw;
+        max-width: 800px;
+        margin-top: 190px;
     }
+
+  #login > #imagem {
+    float: left;
+    right: 100%;
+    width: 30%;
+  }
+
+  section#login > div#formulario {
+    float: right;
+    width: 70%;
+    right: 100%;
+  }
 }
+  @media (min-width:992px) {
+    #login > #imagem {
+        float: left;
+        width: 50%;
+    }
+
+  section#login > div#formulario {
+    float: right;
+    width: 50%;
+    }
+
+  section#login {
+    max-width: 1300px;
+    margin-top: 180px;
+    }
+ } 
