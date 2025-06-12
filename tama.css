@@ -1,0 +1,6 @@
+@media   (min-width: 762px) and (max-width:9992px) {
+    
+    section#login {
+        width: 90vw;
+    }
+}
