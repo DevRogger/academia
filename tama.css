@@ -2,7 +2,7 @@
     
   section#login {
     max-width: 800px;
-    margin-top: 190px;
+    margin-top: 60px;
   }
 
   #login > #imagem {
@@ -18,7 +18,8 @@
     width: 30%;
     right: 100%;
     margin-right: 85px;
-    margin-top: 45px;
+    margin-top: 75px;
+    font-size: 17px;
   }
 }
   
@@ -35,7 +36,7 @@
     float: right;
     width: 50%;
     margin-top: 95px;
-    font-size: 26px;
+    font-size: 17px;
   }
 
   section#login {

@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="imagem/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="tama.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <main>
@@ -16,10 +17,20 @@
                 <h1>login</h1>
                 <p>seja bem-vindo ao login</p>
                 <form action="index.html"autocomplete="on"method="post">
-                    <p><label for="inome">nome:</label><input type="text" name="nome" id="inome"required maxlength="20" autocomplete="nome" placeholder="seu nome"></p>
-                    <p><label for="ISenha">senha:</label><input type="password" name="senha" id="isenha" minlength="8" autocomplete="senha" maxlength="8" placeholder="sua senha"></p>
-                    <p><input type="submit" value="envia"></p>
+                    <p><label for="inome"><i class="fa-regular fa-user"></i></label><input type="text" name="nome" id="inome"required maxlength="20" autocomplete="nome" placeholder="seu nome"></p>
+                    <p><label for="ISenha"><i class="fa-solid fa-shield-halved"></i></label><input type="password" name="senha" id="isenha" minlength="8" autocomplete="senha" maxlength="8" placeholder="sua senha"></p>
+                    <p><input type="submit" value="enviar"</p>
                 </form>
+                <div id="link" >
+                    <a href="@">
+                        <i class="fa-solid fa-envelope"></i>
+                        esqueci a senha
+                    </a>
+                    <a href="@">
+                        <i class="fa-solid fa-hand"></i>
+                        ajuda
+                    </a>
+                </div>
             </div>
         </section>
     </main>

@@ -35,3 +35,10 @@ section > #imagem {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#link > a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    text-align: center;
+}
