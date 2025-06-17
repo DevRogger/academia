@@ -13,6 +13,23 @@
     padding-top: 70px;
   }
 
+  p > label > i {
+    margin-left: -29px;
+    font-size: 20px;
+  }
+
+  div#link {
+    margin-top: 50px;
+  }
+
+  form > p > input[type=submit]{
+    width: 70%;
+    margin-top: 20px;
+    margin-left: -0px;
+    font-size: 18px;
+    padding: 10px;
+  }
+
   section#login > div#formulario {
     float: right;
     width: 30%;
@@ -35,8 +52,8 @@
   section#login > div#formulario {
     float: right;
     width: 50%;
-    margin-top: 95px;
-    font-size: 17px;
+    margin-top: 70px;
+    font-size: 20px;
   }
 
   section#login {
@@ -44,4 +61,53 @@
     margin-top: 150px;
 
   }
+
+  form > p > input[type=submit]{
+    width: 30%;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  form > p > input[type=submit]{
+    width: 40%;
+    margin-top: 20px;
+    margin-left: -0px;
+  }
+
+  p > label > i {
+    margin-left: -28px;
+    font-size: 21px;
+  }
+
+  form > p > input {
+    font-size: 15px;
+  }
+
+  div#link {
+    margin-top: 40px;
+  }
+
 } 
+
+@media (max-width:600px) {
+  
+  form > p > input[type=submit]{
+    width: 40%;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+
+  p > label > i {
+    margin-left: -25px;
+    font-size: 21px;
+  }
+
+  form > p > input {
+    font-size: 17px;
+  }
+
+  section#login {
+  margin-top: -90px;
+  }
+
+}
