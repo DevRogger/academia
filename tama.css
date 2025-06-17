@@ -58,7 +58,7 @@
 
   section#login {
     max-width: 1000px;
-    margin-top: 150px;
+    margin-top: 50px;
 
   }
 
@@ -71,7 +71,7 @@
   form > p > input[type=submit]{
     width: 40%;
     margin-top: 20px;
-    margin-left: -0px;
+    margin-left: 6px;
   }
 
   p > label > i {
