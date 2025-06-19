@@ -177,6 +177,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.texth2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'moda';
+}
+
 div.foto {
     text-align: center;
     margin-top: 30px;
