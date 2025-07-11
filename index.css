@@ -3,6 +3,10 @@
     width: 190px;
 }
 
+#logo-atras{
+    text-align:left;
+}
+
 .imagem1 {
     width: 100%;
     margin-top: 30px;
@@ -27,7 +31,7 @@
     font-size: 22px;
     margin: 6px;
     width: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'menu';
 }
 
 .fa-solid {
@@ -45,7 +49,7 @@
     text-align: center;
     border-radius: 0px 0px 20px 20px;
     float: right;
-    margin-top: -120px;
+    margin-top: -64px;
 }
 
 .moda {
@@ -270,6 +274,11 @@ div.foto {
 @font-face {
     font-family:'azo';
     src: url('fonte/Azonix.otf'), format('opentype');
+}
+
+@font-face {
+    font-family:'menu';
+    src: url('fonte/Bebas-Regular.otf'), format('opentype') ;
 }
 
 @media  ( max-width:600px) {
