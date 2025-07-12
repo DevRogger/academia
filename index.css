@@ -13,6 +13,10 @@
     border-radius: 30px;
 }
 
+.imagem3 {
+    display: none;
+}
+
 .titulo {
     background-color: rgb(255, 255, 255);
     height: 180px;
@@ -289,6 +293,16 @@ div.foto {
     margin-top: 50px;
 }
 
+
+.imagem1 {
+    display: none;
+}
+
+.imagem3 {
+    width: 100%;
+    display: block;
+}
+
 .texth2 {
     font-size: 28px;
 }
@@ -314,7 +328,7 @@ div.foto {
     background-color:rgb(255, 255, 255);
     padding-bottom: 20px;
     text-align: center;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 0px 0px;
 }
 
 .menutras {
