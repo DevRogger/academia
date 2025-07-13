@@ -13,6 +13,21 @@
     border-radius: 30px;
 }
 
+.h2-chega {
+    display: flex;
+    text-align: center;
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagem/pngtree-large-room-full-of-equipment-in-a-gym-image_2549099.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
 .imagem3 {
     display: none;
 }
@@ -282,7 +297,7 @@ div.foto {
 
 @font-face {
     font-family:'menu';
-    src: url('fonte/Bebas-Regular.otf'), format('opentype') ;
+    src: url('fonte/NEXT\ ART_Regular.otf'), format('opentype') ;
 }
 
 @media  ( max-width:600px) {
@@ -292,7 +307,6 @@ div.foto {
     margin: auto;
     margin-top: 50px;
 }
-
 
 .imagem1 {
     display: none;
@@ -356,7 +370,6 @@ div.foto {
     font-family: "azo";
 }
 
-
 .footer-list {
     display: flex;
     flex-direction: column;
@@ -386,7 +399,7 @@ article {
     font-size: 16px;
     line-height: 50px;
     text-align:left;
-    width: 70vw;
+    width: 80vw;
 }
 
 .footer-list {
