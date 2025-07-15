@@ -67,7 +67,7 @@
 
 .moda {
     text-align: center;
-    font-family: 'moda';
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
     margin-left: -32px;
 }
@@ -118,6 +118,7 @@
     font-size: 40px;
     margin-top: 70px;
     margin-bottom: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #next-img {
@@ -220,7 +221,7 @@ body {
 .texth2 {
     text-align: center;
     font-size: 40px;
-    font-family: 'moda';
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 70px;
     margin-top: 70px;
 }
@@ -341,11 +342,12 @@ div.foto {
     display: block;
 }
 
-#next-celular{
-width: 100%;
+#next-celular {
+    width: 100%;
+    display: block;
 }
 
-#next-img{
+#next-img {
     display: none;
 }
 
