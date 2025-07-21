@@ -391,7 +391,7 @@ div.foto {
 }
 
 
-/*------MODO-CELULAR-------*/
+/*------FONT-------*/
 
 @font-face {
     font-family:'tuo';
@@ -423,6 +423,9 @@ div.foto {
     src: url('fonte/Nexa-Heavy.ttf'), format('truetype') ;
 }
 
+
+/*-------MODO-CELULAR------*/
+
 @media  ( max-width:600px) {
 
 .conteudo1 {
@@ -452,7 +455,9 @@ div.foto {
 }
 
 #app-next {
-    margin-left: -40px;
+    margin-left: -3px;
+    font-size: 33px;
+    margin-top: 50px;
 }
 
 .next-fundo {
@@ -467,7 +472,7 @@ div.foto {
     font-size: 17px;
     color: rgb(255, 255, 255);
     margin: 0px;
-    margin-left: -105px;
+    margin-bottom: 40px;
 }
 
 .next-beneficio {
@@ -486,10 +491,10 @@ div.foto {
 }
 
 #img-dentro {
-    width: 320px;
+    width: 280px;
     position: relative;
-    bottom: -430px;
-    left: 30px;
+    bottom: -450px;
+    left: 50px;
 }
 
 .google-fundo {
@@ -500,31 +505,27 @@ div.foto {
 #google {
     width: 200px;
     position: relative;
-    bottom: -250px;
-    left: 10px;
+    bottom: -280px;
+    left: 17px;
 }
 
 .gra {
     margin: 0px;
     text-align: justify;
-    margin-left: 20px;
-    font-size: 14px;
+    margin-left: 30px;
+    font-size: 15px;
     margin-top: 20px;
 }
 
 #gra2 {
     margin: 0px;
-    text-align: justify;
-    margin: 20px;
+    text-align:justify;
+    margin: 10px;
+    margin-left: 30px;
     font-size: 15px;
 }
 
-
-
-
-
-
-
+/*--------------------------*/
 
 
 .texth2 {
@@ -684,7 +685,7 @@ div.foto {
 }
 
 .moda {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 60px;
     margin-bottom: 50px;
     text-align: center;
