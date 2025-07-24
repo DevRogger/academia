@@ -12,13 +12,13 @@
     margin-top: 30px;
     border-radius: 30px;
 }
-#h2-chega{
+#h2-chega {
     width: 100%;
     margin-top: 30px;
     margin-bottom: 70px;
     border-radius: 15px;
 }
-#a{
+#a {
     color: rgb(55, 78, 100);
 }
 
@@ -69,7 +69,6 @@
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 45px;
-    margin-left: -32px;
     margin-top: 70px;
     margin-bottom: 40px;
 }
@@ -82,6 +81,15 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: -8px;
+    display: block;
+}
+
+#mat{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mat1{
+    color: rgb(27, 98, 145);
 }
 
 .porquer {
@@ -184,6 +192,35 @@
     margin-top: 70px;
     margin-right: 40px;
     background-color: rgb(37, 60, 161);
+}
+
+
+/*-------QUEM SOMOS--------*/
+
+.main-quem-somos {
+background-color: rgb(255, 255, 255);
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.fundo-quem-somos {
+background-color: rgba(255, 0, 0, 0);
+padding:4%;
+}
+
+#quem-somos {
+    font-size: 30px;
+}
+
+#text-somos {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#text-quem {
+font-family: 'azo';
+font-size: 50px;
 }
 
 
@@ -525,6 +562,17 @@ div.foto {
     font-size: 15px;
 }
 
+/*-------QUEM SOMOS--------*/
+
+#text-quem {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#cor-somo{
+color:rgb(27, 98, 145);
+}
+
 /*--------------------------*/
 
 
@@ -637,6 +685,7 @@ article {
 #fotos {
    width: 90%;
    margin-bottom: 20px;
+   border-radius: 10px
 }
 
 div.foto {
