@@ -71,6 +71,7 @@
     font-size: 45px;
     margin-top: 70px;
     margin-bottom: 40px;
+    margin-left: -50px;
 }
 
 .MATRICULA {
@@ -198,19 +199,25 @@
 /*-------QUEM SOMOS--------*/
 
 .main-quem-somos {
-background-color: rgb(255, 255, 255);
-display: flex;
-flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 50px;
 
 }
 
 .fundo-quem-somos {
-background-color: rgba(255, 0, 0, 0);
-padding:4%;
+    background-color: rgba(255, 0, 0, 0);
+    padding:4%;
 }
 
 #quem-somos {
     font-size: 30px;
+}
+
+#cor-somo {
+   color:rgb(27, 98, 145);
 }
 
 #text-somos {
@@ -218,11 +225,10 @@ padding:4%;
 
 }
 
-#text-quem {
-font-family: 'azo';
-font-size: 50px;
+#text-quem {   
+    font-family: 'azo';
+    font-size: 50px;
 }
-
 
 /*------APP: NEXT FIT --------*/
 
@@ -282,7 +288,7 @@ font-size: 50px;
 }
 
 #img-dentro {
-    width: 900px;
+    width: 750px;
 }
 
 #google {
@@ -361,6 +367,78 @@ div.foto {
 }
 
 
+/*-------EAI-BORA?-------*/
+
+.main-fundo-eai {
+    width: 100%;
+    background-color: rgba(114, 122, 122, 0);
+    justify-content: center;
+    display: flex;
+}
+
+#fundo-eai {
+    background-color: white;
+    width: 1400px;
+    display: flex;
+    height: 800px;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img-bora-fundo { 
+   width: 50%;
+   float: left;
+}
+
+#img-bora { 
+    width: 600px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#fundo-text-eai {
+
+   float: right;
+   width:85%;
+   background-color: rgb(255, 255, 255);
+   justify-items: center;
+   align-content: center;
+   font-size: 30px;
+   border-radius: 0px 20px 20px 00px;;
+   box-shadow: 6px 11px 21px -10px;
+   font-size: 35px;
+   
+}
+
+div > label > #iciry {
+    font-size: 200px;
+    width: 200px;
+}
+
+#iciry {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e4e4e4;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div > input[type=submit]:hover {
+    background-color: rgb(15, 92, 155);
+}
+
+div > input[type=submit] {
+    width: 200px;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: rgb(28, 118, 192);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /*-------RODA-PE---------*/
 
 .footer-img {
@@ -388,6 +466,7 @@ div.foto {
     background-color: rgb(102, 102, 102);
     margin-left: -8px;
     margin-bottom: -8px;
+    margin-top: 80px;
 }
 
 .redes {
@@ -500,7 +579,7 @@ div.foto {
 .next-fundo {
    background-color: rgb(32, 75, 124);
    width: 100%;
-   height: 700px;
+   height: 760px;
 }
 
 .next-h2-p {
@@ -518,7 +597,7 @@ div.foto {
     color: rgb(0, 0, 0);
     color: white;
     margin: 0px;
-    font-size: 10px;
+    font-size: 13px;
     background-color: rgba(0, 139, 139, 0);
     margin-left: 32px;
 }
@@ -530,7 +609,7 @@ div.foto {
 #img-dentro {
     width: 280px;
     position: relative;
-    bottom: -450px;
+    bottom: -490px;
     left: 50px;
 }
 
@@ -540,25 +619,25 @@ div.foto {
 }
 
 #google {
-    width: 200px;
+    width: 230px;
     position: relative;
     bottom: -280px;
-    left: 17px;
+    left: 70px;
 }
 
 .gra {
     margin: 0px;
-    text-align: justify;
-    margin-left: 30px;
+    text-align: center;
+    margin-left: -10px;
     font-size: 15px;
     margin-top: 20px;
 }
 
 #gra2 {
     margin: 0px;
-    text-align:justify;
+    text-align:center;
     margin: 10px;
-    margin-left: 30px;
+    margin-left: -1px;
     font-size: 15px;
 }
 
@@ -569,15 +648,56 @@ div.foto {
     margin-bottom: 50px;
 }
 
-#cor-somo{
-color:rgb(27, 98, 145);
+#cor-somo {
+    color:rgb(27, 98, 145);
 }
 
-/*--------------------------*/
+#text-somos {
+    font-size: 25px;
+    padding: 3%;
+}
+
+/*-------EAI-BORA?-------*/
+
+.img-bora-fundo { 
+   margin-top: 650px;
+}
+
+#fundo-eai {
+    margin-bottom: 500px;
+    height: 650px;
+    border-radius: 20px 20px  0px  0px;
+}
+
+#text-estado {
+    font-size: 30px;
+}
+
+#fundo-text-eai {
+   background-color: rgb(255, 255, 255);
+   font-size: 30px;
+   border-radius: 0px 20px 20px 00px;
+   box-shadow: 6px 11px 21px -10px;
+   font-size: 35px;
+   width: 1px;
+   float: none;
+}
+
+#img-bora {
+    width: 374px;
+    float: none;
+    border-radius: 0px 0px 20px 20px;
+
+}
+/*-------*/
 
 
 .texth2 {
     font-size: 28px;
+}
+
+#text-quem {
+    font-size: 35px;
 }
 
 .titulo{
