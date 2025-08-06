@@ -609,7 +609,7 @@ div > input[type=submit] {
 #img-dentro {
     width: 280px;
     position: relative;
-    bottom: -490px;
+    bottom: -405px;
     left: 50px;
 }
 
@@ -621,7 +621,7 @@ div > input[type=submit] {
 #google {
     width: 230px;
     position: relative;
-    bottom: -280px;
+    bottom: -555px;
     left: 70px;
 }
 
@@ -660,17 +660,23 @@ div > input[type=submit] {
 /*-------EAI-BORA?-------*/
 
 .img-bora-fundo { 
-   margin-top: 650px;
+   margin-top: 500px;
 }
 
 #fundo-eai {
     margin-bottom: 500px;
-    height: 650px;
+    height: 500px;
     border-radius: 20px 20px  0px  0px;
 }
 
 #text-estado {
-    font-size: 30px;
+    font-size: 20px;
+    width: 46vw;
+    margin-bottom: 40px;
+}
+
+#text-bora {
+    font-size: 37px;
 }
 
 #fundo-text-eai {
@@ -684,7 +690,7 @@ div > input[type=submit] {
 }
 
 #img-bora {
-    width: 374px;
+    width: 200%;
     float: none;
     border-radius: 0px 0px 20px 20px;
 
@@ -800,6 +806,7 @@ article {
 .texto {
     text-align: left;
     width: 86vw;
+    font-size: 23px;
 }
 
 #fotos {
@@ -854,7 +861,7 @@ div.foto {
 }
 
 .moda {
-    font-size: 30px;
+    font-size: 27px;
     margin-top: 60px;
     margin-bottom: 50px;
     text-align: center;
