@@ -67,11 +67,11 @@
 
 .moda {
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'jot';
     font-size: 45px;
     margin-top: 70px;
     margin-bottom: 40px;
-    margin-left: -50px;
+    margin-left: -40px;
 }
 
 .MATRICULA {
@@ -251,6 +251,7 @@
     float: right;
     width: 50%;
     background-color: rgba(255, 0, 0, 0);
+    margin-top: 60px;
 }
 
 #app-letra {
@@ -277,7 +278,7 @@
     margin-left: -125px;
     line-height: 23px;
     font-family:'legal';
-    font-size: 24px;
+    font-size: 27px;
     margin-bottom: 30px;
     margin-top: 120px;
     color: rgb(255, 255, 255);
@@ -292,19 +293,19 @@
 }
 
 #img-dentro {
-    width: 750px;
+    width: 650px;
 }
 
 #google {
-    width: 500px;
-    margin-top: 130px;
+    margin-top: 120px;
+    width: 400px;
 }
 
 .gra {
     margin-left: -275px;
     font-size: 19px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: white;
+    color: white;
 }
 
 #gra2 { 
@@ -352,7 +353,7 @@ body {
 .texth2 {
     text-align: center;
     font-size: 45px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'jot';
     margin-bottom: 70px;
 }
 
@@ -543,6 +544,11 @@ div > input[type=submit] {
     src: url('fonte/Nexa-Heavy.ttf'), format('truetype') ;
 }
 
+@font-face {
+    font-family: 'jot';
+    src: url('fonte/CABRISA.otf'), format('opentype');
+}
+
 
 /*-------MODO-CELULAR------*/
 
@@ -593,6 +599,7 @@ div > input[type=submit] {
     color: rgb(255, 255, 255);
     margin: 0px;
     margin-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .next-beneficio {
@@ -611,22 +618,23 @@ div > input[type=submit] {
 }
 
 #img-dentro {
-    width: 280px;
+    width: 170%;
     position: relative;
-    bottom: -405px;
-    left: 50px;
+    bottom: -420px;
+    left: 30px;
 }
 
 .google-fundo {
     position: absolute;
     background-color: rgba(255, 0, 0, 0);
+    display: none;
 }
 
 #google {
-    width: 230px;
+    width: 200px;
     position: relative;
     bottom: -555px;
-    left: 70px;
+    left: 85px;
 }
 
 .gra {
@@ -650,6 +658,11 @@ div > input[type=submit] {
 #text-quem {
     font-size: 40px;
     margin-bottom: 50px;
+}
+
+.main-quem-somos{
+    height: 395px;
+    overflow: hidden;
 }
 
 #cor-somo {
