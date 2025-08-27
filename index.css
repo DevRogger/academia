@@ -251,7 +251,6 @@
     float: right;
     width: 50%;
     background-color: rgba(255, 0, 0, 0);
-    margin-top: 60px;
 }
 
 #app-letra {
@@ -688,7 +687,7 @@ div > input[type=submit] {
 
 #text-estado {
     font-size: 20px;
-    width: 46vw;
+    width: 44vw;
     margin-bottom: 40px;
 }
 
